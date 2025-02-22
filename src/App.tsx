@@ -1,13 +1,6 @@
-import './App.css'
-import ParentComponent from './components/ParentComponent'
+import './App.css';
+import { Parent } from './components/ParentComponent';
 
-function App() {
-
-  return (
-    <>
-     <ParentComponent></ParentComponent>
-    </>
-  )
+export function App() {
+  return <Parent />;
 }
-
-export default App
